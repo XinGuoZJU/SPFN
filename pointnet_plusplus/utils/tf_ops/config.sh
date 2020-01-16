@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-nvcc_bin=/usr/local/cuda-9.0/bin/nvcc
+nvcc_bin=/home/guoxin/.local/usr/local/cuda-10.0/bin/nvcc
 
-cuda_include_dir=/usr/local/cuda-9.0/include
-tensorflow_include_dir=/orions3-zfs/projects/csimstu/venv3.6/lib/python3.6/site-packages/tensorflow/include
-tensorflow_external_dir=/orions3-zfs/projects/csimstu/venv3.6/lib/python3.6/site-packages/tensorflow/include/external/nsync/public
+cuda_include_dir=/home/guoxin/.local/usr/local/cuda-10.0/include
+tensorflow_include_dir=/home/guoxin/.local/usr/local/anaconda3/envs/pytorch/lib/python3.7/site-packages/tensorflow_core/include
+tensorflow_external_dir=/home/guoxin/.local/usr/local/anaconda3/envs/pytorch/lib/python3.7/site-packages/tensorflow_core/include/external/nsync/public
 
-cuda_library_dir=/usr/local/cuda-9.0/lib64/
-tensorflow_library_dir=/orions3-zfs/projects/csimstu/venv3.6/lib/python3.6/site-packages/tensorflow
+cuda_library_dir=/home/guoxin/.local/usr/local/cuda-10.0/lib64
+tensorflow_library_dir=/home/guoxin/.local/usr/local/anaconda3/envs/pytorch/lib/python3.7/site-packages/tensorflow_core
 
